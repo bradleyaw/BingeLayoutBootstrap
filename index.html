@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom p-0 mb-3">
+        <div class="container px-0">    
+            <a class="navbar-brand p-3" href="index.html">Binge Volleyball</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="text-dark nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link" href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link pr-0" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Volleyball Event Search</h1>
+            <p class="lead">Search for tournaments, leagues, and more for both indoor and outdoor volleyball</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col my-1 mb-3">
+                            <input type="text" class="col form-control form-control-lg px-4" id="inputAddress" placeholder="Location (City, State, or Zip)">
+                    </div>
+                </div>
+                <div class="form-row justify-content-center">               
+                    <div class="col my-1 mb-3 mr-3">
+                        <select class="custom-select mr-sm-2 form-control-lg" id="inlineFormCustomSelect">
+                        <option selected>Sand</option>
+                        <option value="1">Grass</option>
+                        <option value="2">Indoor</option>
+                        <option value="3">Other</option>
+                        </select>
+                    </div>
+                    <div class="col my-1 mb-3 ml-3">
+                        <select class="custom-select mr-sm-2 form-control-lg" id="inlineFormCustomSelect">
+                        <option selected>Adult</option>
+                        <option value="1">Juniors</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row justify-content-center">    
+                    <div class="col my-1">
+                        <button type="submit" class="btn btn-secondary btn-lg btn-block">Search</button>
+                    </div>
+                </div>
+            </form>                  
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-dark jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center">How It Works</h1>
+            <p class="lead text-center">Our database holds volleyball events nationwide. Organizers of tournaments input <br> their tournaments which make them accesible via search for our users.</p>          
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-0">
+        <div class="container px-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="text-dark nav-link m-0" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link m-0" href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link m-0" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
+</body>
+
+</html>
