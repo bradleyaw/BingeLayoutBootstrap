@@ -1,3 +1,39 @@
 .nava {
     font-size: 1.4rem;
 }
+
+.header {
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.Lead {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+#collapse1,
+#collapse2 {
+    padding: 0px 0px;
+}
+
+.Second {
+
+}
+
+.card {
+    padding: 0px 10px 2px 10px;
+}
+
+.label {
+    display: block;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+.moreDetails {
+    vertical-align: middle;
+    margin: 6px 0px;
+}
